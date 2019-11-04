@@ -1,35 +1,32 @@
-html {
-    scroll-behavior: smooth;
+.container-fluid{
+    overflow: hidden;
 }
-.mycont{
-    background-color: #d5edfe;
-}
-header{
-    background-color: #d5edfe;
-    background-repeat: no-repeat;
-    background-size: cover;   
-}
-.my-col{
+.col-sm-6{
     padding: 0;
 }
 .text-box{
+    padding-left: 5%;
+    padding-top: 3%;
+    position: fixed;
+    max-width: 40%;
+    
+}
+.picture-1{
+    transition: all .5s ease;
+    overflow-x: hidden; 
+}
+.picture-1:hover{
+    transform: scale(1.1);
+}
+img {
     width: 100%;
 }
-.text-box span{
-    font-size: 60px;
-    color: #ef2097;
+
+.skills{
+    padding:10px 0;
+    padding-bottom: 80px;
 }
 
-header img{
-    height: 100vh;
-}
-.btn{
-    background-color: #ef2097;
-    color: white;
-}
-.skills{
-    padding:90px 0;
-}
 .progress span{
     padding-right: 50px;
     font-size: 20px;
@@ -40,26 +37,31 @@ header img{
     background-color:#376cac;
 }
 h2{
-    font-weight: 800;
-    text-align: center;
-    padding-top: 50px;
-    color: #04264f;
+    padding-top: 60px;
+   }
+.social img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    
 }
-#portfolio .row{
-    padding-top: 90px;
-    padding-bottom: 40px;
+p{
+    font-size: 21px;
 }
-
-footer{
-    background-color: #d5edfe;
-    min-height: 70px;
-    padding-top: 20px;
+span{
+    font-size: 18px;
 }
-
-@media only screen and (max-width: 990px) {
+.text{
+    font-size: 28px;
+    font-style: italic;
+    color: darkgray;
+}
+@media only screen and (max-width: 768px) {
  .text-box{
-    text-align: center;
-    padding: 50px 0;
+    position: static;
+     padding-bottom: 40px;
+     max-width: 100%;
+    
     }
     
 }
