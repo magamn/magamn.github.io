@@ -1,0 +1,74 @@
+.container-fluid{
+    overflow: hidden;
+}
+.col-sm-6{
+    padding: 0;
+}
+.text-box{
+    padding-left: 5%;
+    padding-top: 3%;
+    position: fixed;
+    max-width: 40%;
+    
+}
+.picture-1{
+    transition: all .5s ease;
+    overflow-x: hidden; 
+}
+.picture-1:hover{
+    transform: scale(1.1);
+}
+img {
+    width: 100%;
+}
+
+.skills{
+    padding:10px 0;
+    padding-bottom: 80px;
+}
+
+.progress span{
+    padding-right: 50px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.progress-bar{
+    background-color:#376cac;
+}
+h2{
+    padding-top: 60px;
+   }
+.social img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    
+}
+p{
+    font-size: 21px;
+}
+span{
+    font-size: 18px;
+}
+.text{
+    font-size: 28px;
+    font-style: italic;
+    color: darkgray;
+}
+@media only screen and (max-width: 768px) {
+ .text-box{
+    position: static;
+     padding-bottom: 40px;
+     max-width: 100%;
+    
+    }
+    
+}
+@media only screen and (max-width: 655px) {
+ h4{
+     font-size: 1rem;
+    }
+    
+}
+
